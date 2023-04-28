@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redix-test
+spec:
+  selector:
+    matchLabels:
+      app: redix-test
+  template:
+    metadata:
+      labels:
+        app: redix-test
+    spec:
+      containers:
+      - name: redix-test
+        image: mjquinlan2000/redix-test:latest
