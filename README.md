@@ -4,10 +4,10 @@ This is a test of the nebulex redis adapter against kubernetes deployments of th
 
 # Prerequisites
 
-Install [helm](https://helm.sh/docs/intro/install/)
-Install [Docker](https://docs.docker.com/get-docker/)
-Install [kubectl](https://kubernetes.io/docs/tasks/tools/)
-Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
+* Install [helm](https://helm.sh/docs/intro/install/)
+* Install [Docker](https://docs.docker.com/get-docker/)
+* Install [kubectl](https://kubernetes.io/docs/tasks/tools/)
+* Install [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
 # Deploying the cluster
 
